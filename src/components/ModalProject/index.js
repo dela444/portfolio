@@ -36,7 +36,7 @@ const ModalProject = (props) => {
         >
             <Box className='modal'>
                 <Box className='modal-image-wrapper'>
-                    <Box className='modal-arrow' onClick={prevImage}>
+                    <Box className='modal-arrow modal-arrow-left' onClick={prevImage}>
                         <KeyboardArrowLeftIcon fontSize='large' />
                     </Box>
                     <Box className='modal-arrow modal-arrow-right' onClick={nextImage}>

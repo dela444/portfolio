@@ -107,7 +107,7 @@
     }
     .project-gallery > div:nth-child(even) {
         align-self: center;
-        margin: 7% 0;
+        margin: 20% 0;
         padding: 0;
     }
     .project-title-wrapper {
@@ -121,7 +121,14 @@
 }
 @media screen and (max-width: 500px) {
     .project-dimension {
-        height: 160px;
-        width: 310px;
+        height: 150px;
+        width: 300px;
     }
 }
+@media screen and (max-width: 400px) {
+    .project-dimension {
+        height: 130px;
+        width: 280px;
+    }
+}
+

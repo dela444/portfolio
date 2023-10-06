@@ -29,6 +29,9 @@
 .modal-arrow-right {
     right: 0;
 }
+.modal-arrow-left {
+    left: 0;
+}
 .modal-title {
     font-size: 32px;
     line-height: 40px;
@@ -83,6 +86,15 @@
 @media screen and (max-width: 700px) {
     .modal-description {
         font-size: 12px;
+    }
+    .modal-img {
+        height: auto;
+        max-height: 100%;
+    }
+    .modal-image-wrapper {
+        display: flex;
+        align-items: center;
+        background-color: #676767;
     }
 }
 @media screen and (max-height: 700px) {
