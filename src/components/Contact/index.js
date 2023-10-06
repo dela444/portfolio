@@ -95,7 +95,7 @@ const Contact = (props) => {
                 <Box className='media-wrapper'>
                     <a 
                         className='icon-wrapper'
-                        href="https://www.linkedin.com/in/hamza-deli%C4%87-b6638a259/"
+                        href="https://www.linkedin.com/in/hamzadelic/"
                         target="_blank"
                         rel="noopener noreferrer"
                     >

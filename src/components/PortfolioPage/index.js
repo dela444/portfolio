@@ -71,7 +71,7 @@ const PortfolioPage = () => {
                     <Box>
                         <a
                             className='icon-wrapper-headline'
-                            href="https://www.linkedin.com/in/hamza-deli%C4%87-b6638a259/"
+                            href="https://www.linkedin.com/in/hamzadelic/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
