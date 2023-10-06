@@ -81,7 +81,7 @@ const projects = [
         ]
     },
     {
-        imageSrc: '/images/portfolioLaptop.png',
+        imageSrc: '/images/portfolioLaptop.PNG',
         title: 'PORTFOLIO',
         subtitle: `Hamza's Portfolio: Showcasing my work and skills`,
         description: (
