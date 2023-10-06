@@ -43,9 +43,9 @@ const ModalProject = (props) => {
                         <KeyboardArrowRightIcon fontSize='large' />
                     </Box>
                     {props.project && props.project.images ? (
-                        <img src={props.project.images[currentImageIndex]} alt="Project" className='modal-img' />
+                        <img loading="lazy" src={props.project.images[currentImageIndex]} alt="Project" className='modal-img' />
                     ) : props.project ? (
-                        <img src={props.project.imageSrc} alt="Project" className='modal-img' />
+                        <img loading="lazy" src={props.project.imageSrc} alt="Project" className='modal-img' />
                     ): null}
                 </Box>
                 <Box className='modal-text-wrapper'>

@@ -195,7 +195,7 @@ const Projects = () => {
                                                     }}
                                                 ></Box>
                                             </Box>
-                                            <img src={project.imageSrc} alt={project.title} className="project-dimension" />
+                                            <img loading="lazy" src={project.imageSrc} alt={project.title} className="project-dimension" />
                                             <Box className="project-title-wrapper">
                                                 <Box sx={{perspective: '700px'}}>
                                                     <Box className='project-title'>{project.title}</Box>
