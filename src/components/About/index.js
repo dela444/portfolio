@@ -40,11 +40,11 @@ const About = () => {
                         data-aos-duration="1000"
                     >
                         <Box className='about-text'>
-                            I'm a passionate IT student at the Faculty of Science
-                            in Sarajevo. As a <strong>Junior software developer</strong>, 
+                            I'm a passionate IT graduate with an associate degree from the 
+                            Faculty of Science in Sarajevo. As a <strong>Junior software developer</strong>, 
                             I'm on an exciting journey of <strong>learning</strong> and 
                             <strong> growth </strong>in the world of technology. My academic
-                            journey has provided opportunities to work on diverse software
+                            journey provided opportunities to work on diverse software
                             development projects, honing my skills and gaining valuable
                             experience both independently and as part of a team.
                         </Box>
@@ -95,7 +95,7 @@ const About = () => {
                             </Box>
                             <Box className='expirience-details'>
                                 <Box className='expirience-name'>University of Sarajevo</Box>
-                                <Box className='expirience-duration'><em>Information technology</em> <span>•</span> Present</Box>
+                                <Box className='expirience-duration'><em>Information technology</em> <span>•</span> October 2021 - July 2024</Box>
                                 <Box className='expirience-description'>Faculty of Science</Box>
                             </Box>
                         </Box>

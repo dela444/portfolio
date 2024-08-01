@@ -6,6 +6,66 @@ import './styles.css'
 
 const projects = [
     {
+        imageSrc: '/images/SweetDesignLaptop.png',
+        title: 'SWEET DESIGN',
+        subtitle: 'CUSTOM CAKE ORDERING APPLICATION',
+        description: (
+            <>
+                Sweet Design is my graduation project, built with <strong>React</strong>,  
+                <strong> Node.js</strong> and <strong>PostgreSQL</strong> that allows users to order custom 
+                cakes by choosing from existing designs, uploading their own designs or using a design 
+                tool to create their perfect cake. The application includes user and admin 
+                interface for managing orders, users and cake designs. You can watch a short demo video 
+                showcasing some of the implemented functionalities below.
+            </>
+        ),
+        demo: 'https://youtu.be/4s3l-frl9TA',
+        images: [
+            '/images/SweetDesign_images/sd1.png',
+            '/images/SweetDesign_images/sd2.png',
+            '/images/SweetDesign_images/sd3.png',
+            '/images/SweetDesign_images/sd4.png',
+            '/images/SweetDesign_images/sd5.png',
+            '/images/SweetDesign_images/sd6.png',
+            '/images/SweetDesign_images/sd7.png',
+            '/images/SweetDesign_images/sd8.png',
+            '/images/SweetDesign_images/sd9.png',
+            '/images/SweetDesign_images/sd10.png',
+            '/images/SweetDesign_images/sd11.png',
+            '/images/SweetDesign_images/sd12.png',
+            '/images/SweetDesign_images/sd13.png',
+            '/images/SweetDesign_images/sd14.png',
+            '/images/SweetDesign_images/sd15.png',
+            '/images/SweetDesign_images/sd16.png',
+            '/images/SweetDesign_images/sd17.png',
+            '/images/SweetDesign_images/sd18.png',
+            '/images/SweetDesign_images/sd19.png',
+            '/images/SweetDesign_images/sd20.png',
+            '/images/SweetDesign_images/sd21.png',
+            '/images/SweetDesign_images/sd22.png',
+            '/images/SweetDesign_images/sd23.png',
+            '/images/SweetDesign_images/sd24.png',
+            '/images/SweetDesign_images/sd25.png',
+            '/images/SweetDesign_images/sd26.png',
+            '/images/SweetDesign_images/sd27.png',
+            '/images/SweetDesign_images/sd28.png',
+            '/images/SweetDesign_images/sd29.png',
+            '/images/SweetDesign_images/sd30.png',
+            '/images/SweetDesign_images/sd31.png',
+            '/images/SweetDesign_images/sd32.png',
+            '/images/SweetDesign_images/sd33.png',
+            '/images/SweetDesign_images/sd34.png',
+            '/images/SweetDesign_images/sd35.png',
+            '/images/SweetDesign_images/sd36.png',
+            '/images/SweetDesign_images/sd37.png',
+            '/images/SweetDesign_images/sd38.png',
+            '/images/SweetDesign_images/sd39.png',
+            '/images/SweetDesign_images/sd40.png',
+            '/images/SweetDesign_images/sd41.png',
+            '/images/SweetDesign_images/sd42.png'
+        ]
+    },
+    {
         imageSrc: '/images/SportsmanLaptop.png',
         title: 'SPORTSMAN',
         subtitle: 'SPORTS HALL RENTING PLATFORM',
@@ -38,7 +98,7 @@ const projects = [
         subtitle: 'LECTURER-AUDIENCE COMMUNICATION PLATFORM',
         description: (
             <>
-                Slido is a faculty project, designed as a simplified version of the
+                Slido is my first major faculty project, designed as a simplified version of the
                 popular Slido app, built with <strong>Node.js</strong> and <strong>Express </strong>
                 as the backend, <strong>EJS </strong>as the frontend and <strong>PostgreSQL </strong>
                 as the database. This app helps lecturers communicate with the audience creating
