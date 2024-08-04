@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* common classes that are used globally */
+
+.title {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.underline {
+  background: #fff;
+  margin: 25px 0 40px 0;
+  width: 110px;
+  height: 4px;
+}
+.flex {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

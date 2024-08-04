@@ -1,0 +1,272 @@
+#title {
+    color: #444649 !important;
+}
+#underline {
+    background: #444649 !important;
+}
+.content {
+    background-color: #f5f5f5;
+    padding: 100px 0 130px 0;
+}
+.aboutMeSection {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.imgWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.img {
+    height: 350px;
+    box-shadow: -20px 20px 1px 0px #04c2c9;
+    border: 8px solid #1b242f;
+}
+.portrait {
+    height: 100%;
+}
+.textBox{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.text {
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    width: 39vw;
+    align-self: flex-start;
+    margin-top: 15px;
+}
+.text strong {
+    color: #37d4db;
+}
+.resumeWrapper {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    align-items: center;
+}
+.resume {
+    box-shadow: 0px 4px 6px rgb(0 0 0 / 25%);
+    border-radius: 3px;
+    overflow: hidden;
+    align-self: flex-start;
+    margin-top: 30px;
+}
+.arrowLeftWrapper {
+    margin-left: 50px;
+    align-self: flex-start;
+}
+.arrowLeft {
+    height: 55px;
+    transform: rotate(4deg);
+}
+.resumeButton {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    color: #343434;
+}
+.resumeButton:hover {
+    color: #fff;
+    background-color: #04c2c9;
+}
+.resumeButton svg {
+    margin-right: 15px;
+}
+.contactAndEducationSection {
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+.contactInfo {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.contactInfo > div {
+    margin-left: 10%;
+    box-shadow: 12px 12px 1px 5px #04c2c9;
+    margin-top: 8%;
+    height: 60%;
+    padding-left: 5%;
+    width: 25vw;
+}
+.contactInfoTitle {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    display: inline-block;
+    background-color: transparent;
+}
+.info {
+    font-size: 16px;
+    margin-left: 35px;
+    margin-bottom: 10px;
+    display: list-item;
+    list-style: disc;
+}
+.experienceText {
+    transform: rotate(357deg);
+    padding-left: 10px;
+    width: 80%;
+    font-size: 20px;
+    line-height: 26px;
+}
+.experienceText span {
+    color: #37d4db;
+    font-weight: bold;
+}
+.experienceWrapper {
+    flex: 1;
+}
+.experience {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.experienceTitle {
+    border-bottom: 3px solid #04c2c9;
+    padding-bottom: 6px;
+    align-self: flex-start;
+    font-weight: bold;
+    font-size: 19px;
+}
+.experienceDetails {
+    width: 70%;
+}
+.experienceName {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.experienceDuration span {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.experienceDuration {
+    margin-bottom: 15px;
+    color: #43494e;
+    font-size: 17px;
+}
+.experienceDescription {
+    color: #6e7881e3;
+}
+.angledDiv {
+    color: white;
+    clip-path: polygon(0% 28%, 100% 0%, 100% 72%, 0% 100%);
+    height: 60vh;
+    background-color: #252934;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 20px 1px 1px 0px #04c2c9;
+    background: url('../../../public/images/testimonials-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.experienceLanguages {
+    color: #6e7881e3;
+    display: flex;
+    flex-direction: column;
+}
+.experienceLanguages > div {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 805px) {
+    .aboutMeSection {
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+    }
+    .text {
+        width: auto;
+    }
+    .textBox {
+        width: 85%;
+    }
+    .resumeWrapper {
+        justify-content: center;
+    }
+    .contactAndEducationSection {
+        flex-direction: column;
+        gap: 80px;
+        align-items: center;
+    }
+    .contactInfo > div {
+        margin: 0;
+        width: 60vw;
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .experienceWrapper {
+        width: 90%;
+    }
+    .experienceText {
+        font-size: 16px;
+        line-height: inherit;
+    }
+}
+@media screen and (max-width: 700px) {
+    .angledDiv {
+        height: 70vh;
+    }
+    .text {
+        font-size: 17px;
+    }
+    .img {
+        height: 340px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .img {
+        height: 320px;
+    }
+    .arrowLeft {
+        transform: rotate(357deg);
+    }
+    .resumeWrapper {
+        flex-direction: column-reverse;
+    }
+    .resume {
+        align-self: auto;
+    }
+    .arrowLeftWrapper {
+        align-self: flex-end;
+    }
+    .experience {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    .experienceDetails {
+        width: 80%;
+    }
+    .experienceLanguages > div {
+        width: 100%;
+    }
+}

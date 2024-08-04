@@ -1,0 +1,51 @@
+.pageLink {
+    margin: 0 20px !important;
+    color: white !important;
+    cursor: pointer !important;
+    transition: color 0.5s;
+}
+.pageLink:hover {
+    color: #04c2c9;
+    background-color: transparent !important;
+}
+.appBar {
+    background-color: #1b242f !important;
+    border-bottom: 3px solid #04c2c9;
+    height: 50px;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    top: 0;
+    z-index: 99;
+}
+.menu {
+    width: 100%;
+    background-color: #1b242f;
+    position: absolute;
+    overflow: hidden;
+    top: 56px;
+    z-index: 99;
+    height: 0;
+    transition: height 0.3s ease-out;
+}
+.menu.open {
+    height: 220px;
+    transition: height 0.3s ease-in-out;
+}
+@keyframes popDown {
+    0% {
+        transform: translateY(-100px);
+    }
+}
+@media screen and (max-width: 899px) {
+    .pageLink {
+        padding: 12px 20px !important;
+    }
+}
+@media screen and (min-width: 600px) {
+    .menu {
+        top: 58px;
+    }
+}
