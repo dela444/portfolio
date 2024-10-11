@@ -6,6 +6,33 @@ import styles from './Projects.module.css'
 
 const projects = [
   {
+    imageSrc: '/images/ChatAppLaptop.png',
+    title: 'CHAT APP',
+    subtitle: 'REAL-TIME CHAT APPLICATION',
+    description: (
+      <>
+        This is a real-time chat application built with <strong>Node.js</strong>
+        , <strong>React.js</strong>, <strong>Socket.IO</strong>,{' '}
+        <strong>Redis</strong> and <strong>PostgreSQL</strong>. The application
+        includes features like user registration and authentication, rate
+        limiting and real-time messaging with chat rooms and private messages.
+        Users can create and join chat rooms and the application implements
+        message status tracking. The backend of the application has been tested
+        using <strong>Jest</strong> . You can watch the demo video for a quick
+        overview below.
+      </>
+    ),
+    demo: 'https://www.youtube.com/watch?v=Ii9fKDRG1-c',
+    images: [
+      '/images/ChatApp_images/c1.png',
+      '/images/ChatApp_images/c2.png',
+      '/images/ChatApp_images/c3.png',
+      '/images/ChatApp_images/c4.png',
+      '/images/ChatApp_images/c5.png',
+      '/images/ChatApp_images/c6.png',
+    ],
+  },
+  {
     imageSrc: '/images/SweetDesignLaptop.png',
     title: 'SWEET DESIGN',
     subtitle: 'CUSTOM CAKE ORDERING APPLICATION',
@@ -95,6 +122,30 @@ const projects = [
     ],
   },
   {
+    imageSrc: '/images/StudentServiceLaptop.png',
+    title: 'STUDENT SERVICE',
+    subtitle: 'FACULTY MANAGEMENT APP',
+    description: (
+      <>
+        Student service is an <strong>Oracle APEX</strong> application that I
+        developed during my internship program. It helps faculty administrators
+        to manage professors, students and staff efficiently. Additionally,
+        professors can manage their subjects and exams, while students can apply
+        for exams. You can watch the demo video for a quick overview below.
+      </>
+    ),
+    demo: 'https://youtu.be/2897qo175Js',
+    images: [
+      '/images/StudentService_images/o1.PNG',
+      '/images/StudentService_images/o2.PNG',
+      '/images/StudentService_images/o3.PNG',
+      '/images/StudentService_images/o4.PNG',
+      '/images/StudentService_images/o5.PNG',
+      '/images/StudentService_images/o6.PNG',
+      '/images/StudentService_images/o7.PNG',
+    ],
+  },
+  {
     imageSrc: '/images/SlidoLaptop.png',
     title: 'SLIDO',
     subtitle: 'LECTURER-AUDIENCE COMMUNICATION PLATFORM',
@@ -121,33 +172,9 @@ const projects = [
     ],
   },
   {
-    imageSrc: '/images/StudentServiceLaptop.png',
-    title: 'STUDENT SERVICE',
-    subtitle: 'FACULTY MANAGEMENT APP',
-    description: (
-      <>
-        Student service is an <strong>Oracle APEX</strong> application that I
-        developed during my internship program. It helps faculty administrators
-        to manage professors, students and staff efficiently. Additionally,
-        professors can manage their subjects and exams, while students can apply
-        for exams. You can watch the demo video for a quick overview below.
-      </>
-    ),
-    demo: 'https://youtu.be/2897qo175Js',
-    images: [
-      '/images/StudentService_images/o1.PNG',
-      '/images/StudentService_images/o2.PNG',
-      '/images/StudentService_images/o3.PNG',
-      '/images/StudentService_images/o4.PNG',
-      '/images/StudentService_images/o5.PNG',
-      '/images/StudentService_images/o6.PNG',
-      '/images/StudentService_images/o7.PNG',
-    ],
-  },
-  {
     imageSrc: '/images/portfolioLaptop.PNG',
     title: 'PORTFOLIO',
-    subtitle: `Hamza's Portfolio: Showcasing my work and skills`,
+    subtitle: `Portfolio: Showcasing my work and skills`,
     description: (
       <>
         This portfolio, showcasing my work and skills, is built with{' '}
